@@ -4,6 +4,8 @@ import Home from '../Components/Home/Home';
 import CardHolder from '../Components/Home/CardsHolder';
 import JobCardHolder from '../Components/Home/JobCardHolder';
 import JobListCardHolder from '../Components/Home/JobListCardHolder';
+import ReviewCardHolder from '../Components/Home/ReviewCardHolder';
+import Employer from '../Components/Home/Employer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <CardHolder />
       <JobCardHolder />
       <JobListCardHolder />
+      <ReviewCardHolder />
+      <Employer />
 
     </>
   );
