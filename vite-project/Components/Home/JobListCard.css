@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .job-role-card-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .view-all {
+    margin-top: 1rem;
+  }
+  
+  .view-all-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .view-all-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* JobRoleCard.css */
+  .job-role-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+  
+  .job-role-card-body {
+    padding: 1rem;
+  }
+  
+  .job-role-card-body h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .job-role-card-body p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .view-jobs {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .view-jobs:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .job-role-card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .job-role-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

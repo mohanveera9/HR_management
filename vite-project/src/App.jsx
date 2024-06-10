@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import NavBar from '../Components/Home/NavBar'; // Ensure the path is correct
+import Home from '../Components/Home/Home';
+import CardHolder from '../Components/Home/CardsHolder';
+import JobCardHolder from '../Components/Home/JobCardHolder';
+import JobListCardHolder from '../Components/Home/JobListCardHolder';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Hello World! vennela</h1>
+      <NavBar />
+      <Home />
+      <CardHolder />
+      <JobCardHolder />
+      <JobListCardHolder />
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
