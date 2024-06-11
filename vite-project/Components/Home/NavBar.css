@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color:#81a6b4;
   padding: 1rem;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-logo a {
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
   margin-right: 1rem;
@@ -26,7 +26,7 @@ body {
 .navbar-toggle {
   display: none;
   font-size: 2rem;
-  color: white;
+  color: #fff;
   background: none;
   border: none;
   cursor: pointer;
@@ -42,14 +42,40 @@ body {
   display: inline;
 }
 
+.navbar-links .employe a {
+  background-color: #050C9C;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.navbar-links .candidate a {
+  background-color: #fff;
+  color: #050C9C;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.navbar-links .candidate a:hover{
+  background-color:#050C9C;
+  color:#fff;
+}
+
+.navbar-links .employe a:hover {
+  background-color: #fff;
+  color: #050C9C;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
 .navbar-links a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .navbar-links a:hover {
-  background-color: #575757;
+  color: #5A72A0;
   border-radius: 4px;
 }
 

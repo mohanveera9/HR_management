@@ -23,8 +23,8 @@ const NavBar = () => {
       </div>
       <div className="navbar-right">
         <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/employee-login">Employer Login</Link></li>
-          <li><Link to="/hr-login">Candidate Login</Link></li>
+          <li className="employe"><Link to="/employee-login">Employer Login</Link></li>
+          <li className="candidate"><Link to="/hr-login">Candidate Login</Link></li>
         </ul>
       </div>
       <button 
