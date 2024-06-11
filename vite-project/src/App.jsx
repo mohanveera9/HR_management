@@ -6,6 +6,7 @@ import JobCardHolder from '../Components/Home/JobCardHolder';
 import JobListCardHolder from '../Components/Home/JobListCardHolder';
 import ReviewCardHolder from '../Components/Home/ReviewCardHolder';
 import Employer from '../Components/Home/Employer';
+import Footer from '../Components/Home/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <JobListCardHolder />
       <ReviewCardHolder />
       <Employer />
+      <Footer />
 
     </>
   );
