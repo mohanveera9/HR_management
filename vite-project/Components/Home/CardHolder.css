@@ -1,0 +1,39 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CDE8E5;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 2rem;
+    background-color: #CDE8E5;
+    margin-top: 0; /* Remove top margin */
+  }
+  
+  .app h1 {
+    font-size: 3rem;
+    margin-top: 0; /* Decrease top margin */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  .card-container::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  .card-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+  
+  .card-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
