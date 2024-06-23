@@ -5,7 +5,7 @@ import './Card.css';  // Ensure this is the correct import
 import './CardHolder.css';
 
 const cardData = [
-  { title: 'Jobs for Freshers', image: './pic.jpg', trending: 1, link: '/jobs-for-freshers' },
+  { title: 'Jobs for Freshers', image: './photoes/pic.jpg', trending: 1, link: '/jobs-for-freshers' },
   { title: 'Work from home Jobs', image: 'pic.jpg', trending: 2, link: '/work-from-home-jobs' },
   { title: 'Part time Jobs', image: 'pic.jpg', trending: 3, link: '/part-time-jobs' },
   { title: 'Jobs for Women', image: 'pic.jpg', trending: 4, link: '/jobs-for-women' },
