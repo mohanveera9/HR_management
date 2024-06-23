@@ -1,38 +1,59 @@
-/* src/Review.css */
+/* src/ReviewCard.css */
 .review-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    min-width: 250px;
-    max-width: 250px;
-    text-align: left;
-    flex-shrink: 0;
-    scroll-snap-align: start;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 40px;
+  width: 290px; /* Adjusted width to match the design */
+  height:280px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-img {
+  border-radius: 50%;
+  width: 80px; /* Adjusted size for the image */
+  height: 80px; /* Adjusted size for the image */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.review-content {
+  text-align: center; /* Center align the content for a better look */
+}
+
+.review-name {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-rating span {
+  margin-left: 5px;
+  color: #f39c12; /* Star color */
+}
+
+.review-text {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .review-card {
+    width: 90%;
   }
-  
-  .review-img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .review-card {
+    width: 100%;
   }
-  
-  .review-content {
-    text-align: left;
-  }
-  
-  @media (max-width: 768px) {
-    .review-card {
-      max-width: 90%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .review-card {
-      max-width: 100%;
-    }
-  }
-  
+}

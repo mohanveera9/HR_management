@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
             <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                <p>© 2024 Apna | All rights reserved</p>
+                <p> All rights reserved</p>
                 <p><a href="https://www.apna.co/privacy-policy" style={{ color: '#fff' }}>Privacy Policy</a> | <a href="https://www.apna.co/terms-conditions" style={{ color: '#fff' }}>Terms & Conditions</a></p>
             </div>
         </footer>

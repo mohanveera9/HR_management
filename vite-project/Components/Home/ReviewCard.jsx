@@ -1,15 +1,20 @@
-// src/Review.js
+// src/ReviewCard.js
 import React from 'react';
 import './ReviewCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const ReviewCard = ({ name, rating, text, imgSrc }) => {
   return (
     <div className="review-card">
       <img src={imgSrc} alt={name} className="review-img" />
       <div className="review-content">
-        <h3>{name}</h3>
-        <p>Rating: {rating}</p>
-        <p>{text}</p>
+        <div className="review-name">{name}</div>
+        <div className="review-rating">
+          <FontAwesomeIcon icon={faStar} style={{ color: '#f39c12' }} />
+          <span>{rating}</span>
+        </div>
+        <div className="review-text">{text}</div>
       </div>
     </div>
   );

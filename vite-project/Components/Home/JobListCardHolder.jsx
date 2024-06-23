@@ -7,7 +7,7 @@ const JobListCardHolder = () => {
   const [jobRoles, setJobRoles] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.example.com/jobroles')
+    fetch('https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=YOUR_APP_ID&app_key=YOUR_APP_KEY')
       .then(response => response.json())
       .then(data => setJobRoles(data))
       .catch(error => console.error('Error fetching data:', error));

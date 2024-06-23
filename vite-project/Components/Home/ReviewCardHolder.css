@@ -1,30 +1,13 @@
 /* src/ReviewSection.css */
 .review-section {
-    padding: 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .reviews-container {
-    display: flex;
-    overflow-x: auto;
-    padding: 20px;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .reviews-container::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .reviews-container {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  
-  @media (max-width: 768px) {
-    .reviews-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
