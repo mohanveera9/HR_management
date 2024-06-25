@@ -24,8 +24,9 @@ body {
 }
 
 .image-content img {
-  width: 100%;
+  width: 110%;
   height: auto;
+  padding-left: 3rem;
 }
 
 .home h1 {

@@ -1,7 +1,6 @@
 // src/EmployerSection.js
 import React from 'react';
 import './Employer.css';
-// import employerImage from './employerImage.jpg'; // Add the path to your image here
 
 const Employer = () => {
   return (
@@ -13,7 +12,7 @@ const Employer = () => {
         <button className="post-job-button">Post job</button>
       </div>
       <div className="employer-image">
-        {/* <img src={employerImage} alt="Employers" /> */}
+        <img src='./photoes/employ.png' alt="Employers" />
       </div>
     </div>
   );

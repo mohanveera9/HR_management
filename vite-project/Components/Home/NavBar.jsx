@@ -19,12 +19,14 @@ const NavBar = () => {
           <li><Link to="/jobs">Jobs</Link></li>
           <li><Link to="/career-compass">Career Compass</Link></li>
           <li><Link to="/community">Community</Link></li>
+          <li><Link to="/community">Training Program</Link></li>
         </ul>
       </div>
       <div className="navbar-right">
         <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
-          <li className="employe"><Link to="/employee-login">Employer Login</Link></li>
-          <li className="candidate"><Link to="/hr-login">Candidate Login</Link></li>
+          <li className="employe"><Link to="/hr-login">Recruiter Login</Link></li>
+          <li className="candidate"><Link to="/employee-login">Contractor Login</Link></li>
+          <li className="employe"><Link to="/hr-login">Candidate Login</Link></li>
         </ul>
       </div>
       <button 

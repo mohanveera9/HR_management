@@ -15,7 +15,7 @@ function App() {
       <Home />
       <CardHolder />
       <JobCardHolder />
-      <JobListCardHolder />
+      {/* <JobListCardHolder /> */}
       <ReviewCardHolder />
       <Employer />
       <Footer />
